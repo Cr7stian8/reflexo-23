@@ -1,4 +1,19 @@
 #s01{
-    height: 700px;
+    height: 650px;
     background-image: url("../images/back.png");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+#loja{
+    padding-bottom: 12.5px;
+    padding-right: 2vw;
+}
+#divDoEllan{
+    width: 300px;
+    text-align: center;
+    padding-top: 30px;
 }

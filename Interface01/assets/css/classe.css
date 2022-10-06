@@ -1,3 +1,14 @@
 .white{
     color: white;
 }
+.flexB{
+    display: flex;
+    justify-content: space-between;
+}
+.flexC{
+    display: flex;
+    flex-direction: column;
+}
+.cursor-p{
+    cursor: pointer;
+}
