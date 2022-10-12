@@ -1,6 +1,23 @@
-@font-face {
-    font-family: 'calvino';
-    src: url(../fonts/Calvino-Grande-Black-trial.ttf);
-}
-@media screen and(max-width:600px){
+@media only screen and (max-width: 600px){
+    /* SESSÃO 01 */
+    #s01{
+        height: 600px;
+    }
+    #titulo{
+        width: 250px;
+    }
+    #data{
+        width: 180px;
+    }
+    .flexB{
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    #s01 .flexB{
+        height: 450px;
+    }
+    .flexB article{
+        text-align: center;
+    }
+    /* FIM SESSÃO 01 */
 }

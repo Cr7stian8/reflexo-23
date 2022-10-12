@@ -26,8 +26,11 @@
     padding-bottom: 12.5px;
     padding-right: 2vw;
 }
+#titulo{
+    width: 350px;
+}
 #data{
-    width: 300px;
+    width: 280px;
     text-align: center;
     padding-top: 30px;
 }
