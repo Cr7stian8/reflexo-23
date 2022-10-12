@@ -8,9 +8,7 @@
 .flexB{
     display: flex;
     justify-content: space-between;
-    width: 80VW;
-    padding-left: 10vw;
-    padding-right: 10vw;
+
 }
 .flexC{
     display: flex;
@@ -33,4 +31,8 @@
 }
 .coluna{
     padding: 50px;
+}
+.p1010{
+    padding-right: 10vw;
+    padding-left: 10vw;
 }
