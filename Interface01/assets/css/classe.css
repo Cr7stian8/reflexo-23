@@ -2,6 +2,9 @@
     font-family: 'calvino';
     src: url(../fonts/Calvino-Grande-Black-trial.ttf);
 }
+.texto05{
+    width: 350px;
+}
 .white{
     color: white;
 }

@@ -1,7 +1,7 @@
 @media only screen and (max-width: 600px){
     /* SESSÃO 01 */
     #s01{
-        height: 600px;
+        height: 530px;
     }
     #titulo{
         width: 250px;
@@ -15,9 +15,48 @@
     }
     #s01 .flexB{
         height: 450px;
+        padding-bottom: 40px;
     }
     .flexB article{
         text-align: center;
     }
     /* FIM SESSÃO 01 */
+    /* SESSÃO 02 */
+    #s02{
+        padding-top: 70px;
+        margin-right: 10%;
+        padding-bottom: 0px;
+    }
+    #headVideo{
+        width: 90%;
+
+    }
+    .flexC{
+        justify-content: center ;
+    }
+    iframe{
+        width: 100%;
+        height: 250px;
+    }
+    #texto01 img{
+        width: 90%;
+        padding-bottom: 20px;
+    }
+    #colum2{
+        flex-direction: column;
+    }
+    .colunas img{
+        margin-right: 50px;
+        margin-left: 50px;
+        align-items: center;
+    }
+    #texto05{
+        width: 200px;
+    }
+    #colum2 .colunas{
+        padding: 20px;
+        padding-top: 0px;
+    }
+    /* FIM SESSÃO 02 */
+    /* SESSÃO 03 */
 }

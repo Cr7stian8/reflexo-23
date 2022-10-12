@@ -1,7 +1,4 @@
-@font-face {
-    font-family: 'calvino';
-    src: url(../fonts/Calvino-Grande-Black-trial.ttf);
-}
+/* SESSÃO 01 */
 #s01{
     height: 700px;
     background-image: url("../images/back.png");
@@ -12,6 +9,7 @@
     padding-left: 100px;
     padding-right: 100px;
 }
+/* SESSÃO 02 */
 #s02{
     padding-top: 150px;
     padding-bottom: 150px;
@@ -21,6 +19,9 @@
 #s02 article {  
     align-items: center;
     padding-bottom: 30px;
+}
+#headVideo{
+    width: 50%;
 }
 #loja{
     padding-bottom: 12.5px;
