@@ -43,3 +43,17 @@
     padding: 30px;
     padding-top: 60px;
 }
+#convite{
+    align-items: center;
+    padding-top: 60px;
+    padding-bottom: 130px;
+}
+#convite img{
+    padding-bottom: 50px;
+}
+#hr{
+    border: 1.2px solid black;
+}
+#botaoI{
+    padding-right: 20px;
+}

@@ -8,6 +8,9 @@
 .flexB{
     display: flex;
     justify-content: space-between;
+    width: 80VW;
+    padding-left: 10vw;
+    padding-right: 10vw;
 }
 .flexC{
     display: flex;
@@ -19,4 +22,15 @@
 .center{
     display: flex;
     justify-content: center;
+}
+.p5pxtop{
+    padding-top: 5px;
+}
+.flexR{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.coluna{
+    padding: 50px;
 }
