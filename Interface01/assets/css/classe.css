@@ -1,3 +1,7 @@
+@font-face {
+    font-family: 'calvino';
+    src: url(../fonts/Calvino-Grande-Black-trial.ttf);
+}
 .white{
     color: white;
 }
@@ -11,4 +15,8 @@
 }
 .cursor-p{
     cursor: pointer;
+}
+.center{
+    display: flex;
+    justify-content: center;
 }

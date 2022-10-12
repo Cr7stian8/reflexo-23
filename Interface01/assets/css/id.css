@@ -1,3 +1,7 @@
+@font-face {
+    font-family: 'calvino';
+    src: url(../fonts/Calvino-Grande-Black-trial.ttf);
+}
 #s01{
     height: 700px;
     background-image: url("../images/back.png");
@@ -14,6 +18,10 @@
     display: flex;
     justify-content: center;
 }
+#s02 article {  
+    align-items: center;
+    padding-bottom: 30px;
+}
 #loja{
     padding-bottom: 12.5px;
     padding-right: 2vw;
@@ -22,4 +30,16 @@
     width: 300px;
     text-align: center;
     padding-top: 30px;
+}
+#texto01{
+    text-align: center;
+    padding-top: 50px;
+}
+#colum2{
+    display: flex;
+    justify-content: center;
+}
+#colum2 .colunas{
+    padding: 30px;
+    padding-top: 60px;
 }
