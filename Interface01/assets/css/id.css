@@ -1,3 +1,13 @@
+#convite{
+    background-image: url("../svg/convite.svg");
+    margin: auto;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+
 /* SESSÃO 01 */
 #s01{
     height: 700px;
@@ -20,8 +30,12 @@
     align-items: center;
     padding-bottom: 30px;
 }
+#texto01{
+    width: 1069px;
+}
 #headVideo{
-    width: 50%;
+    width: 60vw;
+    padding: auto auto;
 }
 #loja{
     padding-bottom: 12.5px;
@@ -60,4 +74,11 @@
 }
 #botaoI{
     padding-right: 20px;
+    width: 400px;
 }
+/* SESSÃO 03 */
+#convite{
+    width:1069px
+}
+
+/* SESSÃO 04 */

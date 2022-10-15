@@ -20,16 +20,17 @@
     .flexB article{
         text-align: center;
     }
+    .cursor-p{
+        width: 100%;
+    }
     /* FIM SESSÃO 01 */
     /* SESSÃO 02 */
     #s02{
-        padding-top: 70px;
-        margin-right: 10%;
+        padding-top: 70px;  
         padding-bottom: 0px;
     }
     #headVideo{
-        width: 90%;
-
+        width: 85VW;
     }
     .flexC{
         justify-content: center ;
@@ -50,13 +51,50 @@
         margin-left: 50px;
         align-items: center;
     }
-    #texto05{
-        width: 200px;
+    .textoColunas{
+        height: 100px;
+        padding-left: 20px;
+        padding-right: 20px;
     }
     #colum2 .colunas{
         padding: 20px;
         padding-top: 0px;
     }
+    #texto01{
+        width: 80vw;
+        padding: 10vw;
+    }
     /* FIM SESSÃO 02 */
     /* SESSÃO 03 */
+    #convite{
+        padding-top: 10px !important;
+        padding: 5vw;
+        width: 90vw;
+    }
+    #botaoI{
+        width: 80vw;
+        padding-left: 10vw;
+        padding-right: 10vw;
+        padding-top: 3vh;
+    }
+    /* SESSÃO 04 */
+    #metade{
+        width: 50%;
+    }
+    .coluna{
+        width: 45vw;
+        padding-left: 2.5vw;
+        padding-right: 2.5vw;
+        padding-top: 50px;
+    }
+    #convite{
+    background-image: url("../svg/conviteMobile.svg") !important;
+    background-repeat: no-repeat; 
+    background-position: center;     
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height:50px;
+    width:90vw;
+    }
 }
