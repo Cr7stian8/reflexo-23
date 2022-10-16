@@ -1,7 +1,13 @@
+#body{
+    display: flex;
+    margin-top: 50px;
+}
 .camisaModelo{
-    width: 90vw;
+    border: 1px solid black;
+    width: 38vw;
     padding-left: 5vw;
     padding-right: 5vw;
+    margin: 1vw;
 }
 #tituloModelo{
     font-size: 20px;
@@ -29,14 +35,63 @@ h6{
 }
 select{
     height: 40px;
-    width: 80vw;
-    margin-left: 10vw;
-    margin-right: 10vw;
+    width: 30vw;
+    margin-left: 2vw;
+    margin-right: 2vw;
 }
 button{
     margin-top: 20px;
     height: 40px;
-    width: 80vw;
-    margin-left: 10vw;
-    margin-right: 10vw;
+    width: 30vw;
+    margin-left: 2vw;
+    margin-right: 2vw;
+}
+@media only screen and (max-width: 600px){
+    #body{
+        flex-direction: column;
+        margin-top: 0px;
+    }
+    .camisaModelo{
+        margin: 1vw;
+        width: 88vw;
+        padding-left: 5vw;
+        padding-right: 5vw;
+    }
+    #tituloModelo{
+        font-size: 20px;
+        text-align: center;
+    }
+    #descricaoModelo{
+        font-size: 16px;
+        text-align: center;
+    }
+    h4{
+        text-align: center;
+    }
+    h2{
+        text-align: center;
+    }
+    h6{
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-weight: 300;
+        font-size: 14px;
+        margin: 0;
+    }
+    #mb{
+        margin-top: 80px;
+        margin-bottom: 30px;
+    }
+    select{
+        height: 40px;
+        width: 80vw;
+        margin-left: 10vw;
+        margin-right: 10vw;
+    }
+    button{
+        margin-top: 20px;
+        height: 40px;
+        width: 80vw;
+        margin-left: 10vw;
+        margin-right: 10vw;
+    }
 }
