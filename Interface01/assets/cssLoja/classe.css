@@ -1,0 +1,26 @@
+/* header */
+.textoCentralizado{
+    text-align: center;
+}
+.beetwen{
+    display: flex;
+    justify-content: space-between;
+}
+.w33{
+    width: 33%;
+}
+.linha{
+    display: flex;
+    flex-wrap: wrap;
+}
+.coluna{
+    margin: auto auto;
+    width: 46vw;
+    border: 1px solid black;
+    padding: 6px;
+    padding-bottom: 15px;
+    margin-bottom: 3px;
+}
+.coluna img{
+    width: 40vw;
+}

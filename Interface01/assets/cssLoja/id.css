@@ -1,0 +1,14 @@
+#reflexo{
+    padding-top: 10px;
+    height: 30px;
+}
+#imgHeader{
+    height: 80px;
+    width: 100%;
+    background-size: cover;
+    border: 1px solid black;
+    margin-top: 7px;
+}
+#resultados{
+    padding: 10px;
+}
