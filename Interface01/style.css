@@ -1,0 +1,250 @@
+.texto05{
+    width: 350px;
+}
+.white{
+    color: white;
+}
+.flexB{
+    display: flex;
+    justify-content: space-between;
+}
+.flexC{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+.cursor-p{
+    cursor: pointer;
+}
+.center{
+    display: flex;
+    justify-content: center;
+}
+.p5pxtop{
+    padding-BOTTOM: 10px;
+    padding-top: 5px;
+    font-size: 12px;
+    text-align: center;
+}
+.flexR{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.flexR1{
+    display: flex;
+    justify-content: center;
+}
+.p1010{
+    padding-right: 10vw;
+    padding-left: 10vw;
+}
+/* SESSÃO 04 */
+.coluna{
+    width: 400px;
+    padding: 80px;
+    padding-top: 190px;
+}
+.flex{
+    display: flex;
+    justify-content: space-between;
+}
+.textoColunas{
+    height: 130px;
+}
+#convite{
+    background-image: url("assets/svg/convite.svg");
+    margin: auto;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+/* SESSÃO 01 */
+#s01{
+    height: 700px;
+    background-image: url('assets/images/back.png');
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+/* SESSÃO 02 */
+#s02{
+    padding-top: 150px;
+    padding-bottom: 150px;
+    display: flex;
+    justify-content: center;
+}
+#s02 article {  
+    align-items: center;
+    padding-bottom: 30px;
+}
+#texto01{
+    width: 1069px;
+}
+#headVideo{
+    width: 60vw;
+    padding: auto auto;
+}
+#loja{
+    padding-bottom: 12.5px;
+    padding-right: 2vw;
+}
+#titulo{
+    width: 350px;
+}
+#data{
+    width: 280px;
+    text-align: center;
+    padding-top: 30px;
+}
+#texto01{
+    text-align: center;
+    padding-top: 50px;
+}
+#colum2{
+    display: flex;
+    justify-content: center;
+}
+#colum2 .colunas{
+    padding: 30px;
+    padding-top: 60px;
+}
+#convite{
+    align-items: center;
+    padding-top: 60px;
+    padding-bottom: 130px;
+}
+#convite img{
+    padding-bottom: 50px;
+}
+#hr{
+    border: 1.2px solid black;
+}
+#botaoI{
+    padding-right: 20px;
+    width: 400px;
+}
+/* SESSÃO 03 */
+#convite{
+    width:1069px
+}
+
+/* SESSÃO 04 */
+@media only screen and (max-width: 600px){
+    /* SESSÃO 01 */
+    #s01{
+        height: 530px;
+    }
+    #titulo{
+        width: 250px;
+    }
+    #data{
+        width: 180px;
+    }
+    .flexB{
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    #s01 .flexB{
+        height: 450px;
+        padding-bottom: 40px;
+    }
+    .flexB article{
+        text-align: center;
+    }
+    .cursor-p{
+        width: 100%;
+    }
+    /* FIM SESSÃO 01 */
+    /* SESSÃO 02 */
+    #s02{
+        padding-top: 70px;  
+        padding-bottom: 0px;
+    }
+    #headVideo{
+        width: 85VW;
+    }
+    .flexC{
+        justify-content: center ;
+    }
+    iframe{
+        width: 100%;
+        height: 250px;
+    }
+    #texto01 img{
+        width: 90%;
+        padding-bottom: 20px;
+    }
+    #colum2{
+        flex-direction: column;
+    }
+    .colunas img{
+        margin-right: 50px;
+        margin-left: 50px;
+        align-items: center;
+    }
+    .textoColunas{
+        height: 100px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    #colum2 .colunas{
+        padding: 20px;
+        padding-top: 0px;
+    }
+    #texto01{
+        width: 80vw;
+        padding: 10vw;
+    }
+    /* FIM SESSÃO 02 */
+    /* SESSÃO 03 */
+    #convite{
+        padding-top: 10px !important;
+        padding: 5vw;
+        width: 90vw;
+    }
+    #botaoI{
+        width: 80vw;
+        padding-left: 10vw;
+        padding-right: 10vw;
+        padding-top: 3vh;
+    }
+    /* SESSÃO 04 */
+    #metade{
+        width: 50%;
+    }
+    .coluna{
+        width: 45vw;
+        padding-left: 2.5vw;
+        padding-right: 2.5vw;
+        padding-top: 50px;
+    }
+    #convite{
+    background-image: url("assets/svg/conviteMobile.svg") !important;
+    background-repeat: no-repeat; 
+    background-position: center;     
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height:50px;
+    width:90vw;
+    }
+}
+body{
+    background-color: rgb(255, 255, 255);
+    padding: 0 0 0 0!important;
+    margin: 0 0 0 0 !important;
+}
+header{
+    padding-top: 40px;
+}
+footer{
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
