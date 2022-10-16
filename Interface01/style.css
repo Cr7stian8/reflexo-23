@@ -133,8 +133,21 @@
 #convite{
     width:1069px
 }
+body{
+    background-color: rgb(255, 255, 255);
+    padding: 0 0 0 0!important;
+    margin: 0 0 0 0 !important;
+}
+header{
+    padding-top: 40px;
+}
+footer{
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
 
-/* SESSÃO 04 */
+/* MOBILE */
 @media only screen and (max-width: 600px){
     /* SESSÃO 01 */
     #s01{
@@ -234,17 +247,4 @@
     height:50px;
     width:90vw;
     }
-}
-body{
-    background-color: rgb(255, 255, 255);
-    padding: 0 0 0 0!important;
-    margin: 0 0 0 0 !important;
-}
-header{
-    padding-top: 40px;
-}
-footer{
-    text-align: center;
-    padding-top: 20px;
-    padding-bottom: 10px;
 }
