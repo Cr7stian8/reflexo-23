@@ -1,12 +1,12 @@
 function comprar(){
     let tamanho = document.getElementById("tamanho");
     if(tamanho.value == "p"){
-        window.location.href = "https://mpago.la/2F1sdiC";
+        window.location.href = "https://mpago.la/17pH8dM";
     }
     else if(tamanho.value == "m"){
-        window.location.href = "https://mpago.la/2YAsdeQ";
+        window.location.href = "https://mpago.la/23ZVkjS";
     }
     else{
-        window.location.href = "https://mpago.la/1m7T2TM";
+        window.location.href = "https://mpago.la/2rkUJ77";
     }
 }
