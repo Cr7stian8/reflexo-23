@@ -34,16 +34,18 @@ a{
     flex-wrap: wrap;
 }
 .coluna{
+    border-radius: 30px;
     margin: auto auto;
     width: 30vw;
     border: 1px solid black;
     padding: 0.8vw;
     padding-bottom: 10px;
-    margin-bottom: 3px;
+    margin-bottom: 15px;
     text-align: center;
 }
 .coluna img{
     width: 30vw;
+    border-radius: 30px;
 }
 .p5pxtop{
     padding-top: 5px;
@@ -72,7 +74,7 @@ a{
     #resultados{
         padding: 10px;
     }
-    
+
     /* header */
     .textoCentralizado{
         text-align: center;

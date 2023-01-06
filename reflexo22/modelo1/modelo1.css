@@ -4,10 +4,10 @@
 }
 .camisaModelo{
     border: 1px solid black;
-    width: 38vw;
-    padding-left: 5vw;
-    padding-right: 5vw;
-    margin: 1vw;
+    border-radius: 30px;
+    display: block;
+    margin: auto auto;
+    width: 60%;
 }
 #tituloModelo{
     font-size: 20px;
@@ -51,11 +51,15 @@ button{
         flex-direction: column;
         margin-top: 0px;
     }
+    #body div:nth-child(1){
+        display: flex;
+        margin: auto auto;
+        flex-direction: column;
+    }
     .camisaModelo{
         margin: 1vw;
         width: 88vw;
-        padding-left: 5vw;
-        padding-right: 5vw;
+        border-radius: 30px;
     }
     #tituloModelo{
         font-size: 20px;
